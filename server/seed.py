@@ -2,8 +2,12 @@
 
 from faker import Faker
 
+import sys
+
+sys.path.append("/Users/winnie/python-p4-flask-restful-cr/")
+
 from app import app
-from models import db, Newsletter
+from server.models import db, Newsletter
 
 with app.app_context():
     
